@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#130f12">
+  <title>El armario de Clara</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="El armario de Clara">
+      <span class="brand-mark">C</span><span id="brandName">El armario de Clara</span>
+    </a>
+    <div class="language-switch" role="group" aria-label="Idioma / Language">
+      <button data-language="es">ES</button><button class="active" data-language="en">EN</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="catalogue" aria-label="Your collection">
+      <nav class="section-tabs" id="sectionFilters" aria-label="Apartados de la colección"></nav>
+      <div class="collection-heading">
+        <div><p class="eyebrow" id="privateLabel">Colección privada</p><h1 id="sectionTitle">Juguetes</h1></div>
+        <div class="view-label" id="resultLabel"></div>
+      </div>
+      <div class="subcategory-row" id="subcategoryFilters" aria-label="Categorías del apartado"></div>
+      <div class="tag-row" id="tagFilters" aria-label="Filter by tag"></div>
+      <div class="item-grid" id="itemGrid"></div>
+      <div class="empty-state" id="emptyState" hidden>
+        <span>♡</span><h2 id="emptyTitle">No hay nada aquí</h2><p id="emptyCopy">Prueba con otro filtro.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer><span id="footerBrand">El armario de Clara</span></footer>
+
+  <dialog id="detailDialog" class="detail-dialog">
+    <button class="icon-button close-button" data-close="detailDialog" aria-label="Close">×</button>
+    <div id="detailContent"></div>
+  </dialog>
+
+  <script src="wishlist-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

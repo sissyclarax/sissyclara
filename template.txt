@@ -1,0 +1,7 @@
+const seedItems = [
+  {id:'1',name:'Satin Slip',category:'Clothing',tags:['cream','evening','favourite'],description:'Soft champagne satin with a beautiful fluid drape. The one I reach for when an evening deserves a little extra glow.',image:ASSET,pos:'13% center'},
+  {id:'2',name:'Blush Heels',category:'Accessories',tags:['pink','heels','date night'],description:'Dusty rose suede pumps with a delicate pointed toe. Elegant, comfortable, and surprisingly easy to style.',image:ASSET,pos:'48% 18%'},
+  {id:'3',name:'Midnight Collar',category:'BDSM Gear',tags:['leather','black','hardware'],description:'A simple black leather collar with polished silver hardware. Clean lines, soft lining, and an understated finish.',image:ASSET,pos:'70% 20%'},
+  {id:'4',name:'Rosie Rabbit',category:'Toys',tags:['plush','pink','comfort'],description:'A very soft, very loved rabbit in powder pink. A sweet companion with floppy ears and a tiny satin bow.',image:ASSET,pos:'45% 75%'},
+];
+  {id:'1',name:'Chastity Cage Metal',category:'Toys',tags:['chastitycage','rosa'],description:'Longitud: 10cm.',image:"assets/metalChastityCage.png",pos:'45% 75%'},
