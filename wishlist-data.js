@@ -5,6 +5,7 @@ const wishlistSeed = [
       "https://img.kwcdn.com/product/fancy/cd59cb55-cab8-4b77-8484-1879f63a4a4d.jpg"
     ],
     "tags": ["underwear"],
+    "price": 9.78,
     "sourceUrl": "https://share.temu.com/0iGCCng2h4B",
   },
   {
@@ -13,6 +14,7 @@ const wishlistSeed = [
       "https://img.kwcdn.com/product/fancy/724f6e85-3bcc-494b-9ff0-ccfac0af6f92.jpg"
     ],
     "tags": ["underwear"],
+    "price": 6.45,
     "sourceUrl": "https://share.temu.com/GCRSUIhBNPB",
   },
   {
@@ -21,6 +23,7 @@ const wishlistSeed = [
       "https://img.kwcdn.com/product/fancy/ac8a9a1b-b0e2-4440-965d-09a71e3eab90.jpg"
     ],
     "tags": ["top"],
+    "price": 2.74,
     "sourceUrl": "https://share.temu.com/i1SpS970imB",
   },
   {
@@ -29,6 +32,7 @@ const wishlistSeed = [
       "https://img.kwcdn.com/product/fancy/ada9f2dc-486a-4a43-a32c-e1d3b588f0d8.jpg"
     ],
     "tags": ["top"],
+    "price": 1.96,
     "sourceUrl": "https://share.temu.com/t3GDq2Bdb3B",
   },
   {
@@ -37,6 +41,7 @@ const wishlistSeed = [
       "https://img.kwcdn.com/product/fancy/a078de84-0dc4-4060-a2d1-e9de048f0ceb.jpg"
     ],
     "tags": ["pants"],
+    "price": 6.51,
     "sourceUrl": "https://share.temu.com/kOhKOj5OYQB",
   },
   {
@@ -45,6 +50,7 @@ const wishlistSeed = [
       "https://img.kwcdn.com/product/fancy/fc2cc0a1-83ca-4717-8b42-f6acaf9d1a1a.jpg"
     ],
     "tags": ["dress"],
+    "price": 7.36,
     "sourceUrl": "https://share.temu.com/nAf3QscXJeB",
   },
   {
@@ -53,6 +59,7 @@ const wishlistSeed = [
       "https://img.kwcdn.com/product/fancy/d48cc174-f758-4c2d-9fe7-b561beb3b762.jpg"
     ],
     "tags": ["dress"],
+    "price": 3.90,
     "sourceUrl": "https://share.temu.com/8Ac4Cx4nzWB",
   },
   {
@@ -61,6 +68,7 @@ const wishlistSeed = [
       "https://img.kwcdn.com/product/open/2024-09-20/1726848978252-dd3d1a0957cc4ef6bb8a7a81cc055514-goods.jpeg"
     ],
     "tags": ["makeup"],
+    "price": 1.58,
     "sourceUrl": "https://share.temu.com/e54lN2aBKzB",
   },
   {
@@ -69,6 +77,7 @@ const wishlistSeed = [
       "https://img.kwcdn.com/product/fancy/cc6e9e06-a8fd-40cf-b3d2-797d22b52e6e.jpg"
     ],
     "tags": ["dress"],
+    "price": 6.70,
     "sourceUrl": "https://share.temu.com/CcKf7JPjgwB",
   },
   {
@@ -77,6 +86,7 @@ const wishlistSeed = [
       "https://img.kwcdn.com/product/fancy/649be9a0-c8ff-429f-bb47-a2e14cb066cd.jpg"
     ],
     "tags": ["dress"],
+    "price": 4.43,
     "sourceUrl": "https://share.temu.com/ncb7T5I8qDB",
   },
   {
@@ -85,6 +95,7 @@ const wishlistSeed = [
       "https://img.kwcdn.com/product/open/ea05730688024b66a0dcae9185cea88c-goods.jpeg"
     ],
     "tags": ["bodysuit"],
+    "price": 9.54,
     "sourceUrl": "https://share.temu.com/lMU7YwFqkxB",
   },
   {
@@ -93,6 +104,7 @@ const wishlistSeed = [
       "https://img.kwcdn.com/product/fancy/ff14111a-4746-4478-9213-8e5b5fc78a2c.jpg"
     ],
     "tags": ["underwear"],
+    "price": 3.97,
     "sourceUrl": "https://share.temu.com/SlvFw9vQZyB",
   },
   {
@@ -101,6 +113,7 @@ const wishlistSeed = [
       "https://img.kwcdn.com/product/fancy/d7e5d7d5-7f4e-4ba2-9edd-503e333c5c6b.jpg"
     ],
     "tags": ["underwear"],
+    "price": 7.52,
     "sourceUrl": "https://share.temu.com/3wtIzFr6BYB",
   },
   {
@@ -109,6 +122,7 @@ const wishlistSeed = [
       "https://img.kwcdn.com/product/fancy/01a33b21-214a-4489-bade-cf4319bb8038.jpg"
     ],
     "tags": ["underwear"],
+    "price": 4.16,
     "sourceUrl": "https://share.temu.com/RJweVnbLfqB",
   },
   {
@@ -117,23 +131,8 @@ const wishlistSeed = [
       "https://img.kwcdn.com/product/fancy/2ad66797-1c10-4799-bea7-c3a31b0debe2.jpg"
     ],
     "tags": ["top"],
+    "price": 4.93,
     "sourceUrl": "https://share.temu.com/SFtpgllgyXB",
-  },
-  {
-    "name": "Women'S Casual Shaping Bodysuit Tight Butt Lift Stretch Women'S Clothing",
-    "images": [
-      "https://img.kwcdn.com/product/fancy/94acb3a4-bb62-4430-a323-95e434d9d007.jpg"
-    ],
-    "tags": ["bodysuit"],
-    "sourceUrl": "https://share.temu.com/oYUPKzKLV5B",
-  },
-  {
-    "name": "Round Neck, Slim Fit",
-    "images": [
-      "https://img.kwcdn.com/product/open/1cd637613c404b2ab4d65de09658d85c-goods.jpeg"
-    ],
-    "tags": ["top"],
-    "sourceUrl": "https://share.temu.com/zRRwI5kQnXB",
   },
   {
     "name": "Casual Bodycon Solid Color Mini A-Line Tube Dress",
@@ -141,6 +140,7 @@ const wishlistSeed = [
       "https://img.kwcdn.com/product/fancy/ca255c56-5c86-4e73-91ee-1ca253296798.jpg"
     ],
     "tags": ["dress"],
+    "price": 4.90,
     "sourceUrl": "https://share.temu.com/Y6WRCNoaJ8B",
   },
   {
@@ -149,6 +149,7 @@ const wishlistSeed = [
       "https://img.kwcdn.com/product/fancy/c126573a-ecbc-484f-ba46-9bd5f09766c7.jpg"
     ],
     "tags": ["catsuit"],
+    "price": 19.83,
     "sourceUrl": "https://share.temu.com/6sAtYgJw2MB",
   },
   {
@@ -157,6 +158,7 @@ const wishlistSeed = [
       "https://img.kwcdn.com/product/fancy/4de77200-9946-4e0e-aa53-e5c0d3ecd213.jpg"
     ],
     "tags": ["dress"],
+    "price": 5.27,
     "sourceUrl": "https://share.temu.com/yCt6NRR2TEB",
   },
   {
@@ -165,6 +167,7 @@ const wishlistSeed = [
       "https://img.kwcdn.com/product/fancy/8cec0cfd-4c0f-473d-a77c-e2c4280404ac.jpg"
     ],
     "tags": ["makeup"],
+    "price": 4.25,
     "sourceUrl": "https://share.temu.com/xCrkk3aVQdB",
   },
   {
@@ -173,6 +176,7 @@ const wishlistSeed = [
       "https://img.kwcdn.com/product/fancy/24935885-517d-4b8e-9ad1-709220d788b3.jpg"
     ],
     "tags": ["makeup"],
+    "price": 1.31,
     "sourceUrl": "https://share.temu.com/YCUw5R54TjB",
   },
   {
@@ -181,6 +185,7 @@ const wishlistSeed = [
       "https://img.kwcdn.com/product/fancy/94ed4cfb-1210-4491-9a7c-6a40d3b22a72.jpg"
     ],
     "tags": ["dress"],
+    "price": 6.72,
     "sourceUrl": "https://share.temu.com/IRPyRbyCH7B",
   },
   {
@@ -189,6 +194,7 @@ const wishlistSeed = [
       "https://img.kwcdn.com/product/fancy/25163bb5-36a8-48c5-9510-7f6000448f19.jpg"
     ],
     "tags": ["dress"],
+    "price": 6.23,
     "sourceUrl": "https://share.temu.com/VntQtb0rGFB",
   },
   {
@@ -197,6 +203,7 @@ const wishlistSeed = [
       "https://img.kwcdn.com/product/fancy/83a70464-2a01-45cc-bb73-5c5c01d0a964.jpg"
     ],
     "tags": ["dress"],
+    "price": 5.84,
     "sourceUrl": "https://share.temu.com/LQd651tsdQB",
   },
   {
@@ -205,6 +212,7 @@ const wishlistSeed = [
       "https://img.kwcdn.com/product/fancy/b76f3a37-04a8-40d1-97fd-10b7b828c827.jpg"
     ],
     "tags": ["toy"],
+    "price": 4.78,
     "sourceUrl": "https://share.temu.com/2GWpVAgl44B",
   },
   {
@@ -213,6 +221,7 @@ const wishlistSeed = [
       "https://img.kwcdn.com/product/fancy/1a4217ed-72ee-45af-8e4e-d3f0732fa636.jpg"
     ],
     "tags": ["toy"],
+    "price": 3.58,
     "sourceUrl": "https://share.temu.com/FMkF0PwpGuB",
   },
   {
@@ -221,6 +230,7 @@ const wishlistSeed = [
       "https://img.kwcdn.com/product/fancy/21f7a2a9-08ab-4226-89d3-df888dc480a2.jpg"
     ],
     "tags": ["toy"],
+    "price": 13.71,
     "sourceUrl": "https://share.temu.com/fjCLskmTFGB",
   },
   {
@@ -230,6 +240,7 @@ const wishlistSeed = [
       "https://img.kwcdn.com/product/fancy/f289287f-86a8-4470-8b5d-e01f5d380083.jpg"
     ],
     "tags": ["toy"],
+    "price": 36.11,
     "sourceUrl": "https://share.temu.com/OIfxMuPZ4dB",
   },
   {
@@ -238,6 +249,7 @@ const wishlistSeed = [
       "https://img.kwcdn.com/product/fancy/067c9041-e243-440a-9a83-13b678a41692.jpg"
     ],
     "tags": ["corset"],
+    "price": 6.89,
     "sourceUrl": "https://share.temu.com/uEhrfHQFE7B",
   },
   {
@@ -246,6 +258,7 @@ const wishlistSeed = [
       "https://img.kwcdn.com/product/fancy/4e435aa8-4470-4a8c-8b45-bcdf151c7dc7.jpg"
     ],
     "tags": ["dress"],
+    "price": 11.83,
     "sourceUrl": "https://share.temu.com/vkEmoMipYwB",
   },
   {
@@ -254,6 +267,7 @@ const wishlistSeed = [
       "https://img.kwcdn.com/product/fancy/1593ff83-60cb-49df-9859-e639054563e1.jpg"
     ],
     "tags": ["dress"],
+    "price": 5.14,
     "sourceUrl": "https://share.temu.com/Cxxdo3uQATB",
   },
   {
@@ -262,6 +276,7 @@ const wishlistSeed = [
       "https://img.kwcdn.com/product/fancy/389d3c05-cca2-4f68-b51e-745ce3cd79c0.jpg"
     ],
     "tags": ["toy"],
+    "price": 2.15,
     "sourceUrl": "https://share.temu.com/GXz6HhWXRLB",
   },
   {
@@ -270,6 +285,7 @@ const wishlistSeed = [
       "https://img.kwcdn.com/product/fancy/9c3ce0e4-8294-4ccf-bea3-d578b84b1d6c.jpg"
     ],
     "tags": ["toy"],
+    "price": 29.41,
     "sourceUrl": "https://share.temu.com/8aAVDeGgNmB",
   },
   {
@@ -278,6 +294,7 @@ const wishlistSeed = [
       "https://img.kwcdn.com/product/fancy/4cd5feb4-ee6d-4f60-8a1f-724afcec0946.jpg"
     ],
     "tags": ["toy"],
+    "price": 8.46,
     "sourceUrl": "https://share.temu.com/LTrRxZRjAyB",
   },
   {
@@ -286,6 +303,7 @@ const wishlistSeed = [
       "https://img.kwcdn.com/product/fancy/27054000-a545-4c7d-8687-a5985157306c.jpg"
     ],
     "tags": ["toy"],
+    "price": 10.39,
     "sourceUrl": "https://share.temu.com/OQ53TbW4kPB",
   },
   {
@@ -294,6 +312,7 @@ const wishlistSeed = [
       "https://img.kwcdn.com/product/fancy/785f967b-d713-4318-bad5-2e8252e8a1d8.jpg"
     ],
     "tags": ["catsuit"],
+    "price": 14.16,
     "sourceUrl": "https://share.temu.com/OTufLtpdAgB",
   },
   {
@@ -302,6 +321,7 @@ const wishlistSeed = [
       "https://img.kwcdn.com/product/fancy/42591337-99bf-4b01-b9bf-5731662b0f6a.jpg"
     ],
     "tags": ["top"],
+    "price": 8.52,
     "sourceUrl": "https://share.temu.com/i04QdmzSsgB",
   },
   {
@@ -310,6 +330,7 @@ const wishlistSeed = [
       "https://img.kwcdn.com/product/open/0dd065ad49bc46bfa3e8125dad76f5e9-goods.jpeg"
     ],
     "tags": ["stockings"],
+    "price": 3.63,
     "sourceUrl": "https://share.temu.com/1RMs8iz7KsB",
   },
   {
@@ -318,6 +339,7 @@ const wishlistSeed = [
       "https://img.kwcdn.com/product/fancy/76b7ed37-eb99-44b9-a50d-e6590b538391.jpg"
     ],
     "tags": ["bodysuit"],
+    "price": 6.84,
     "sourceUrl": "https://share.temu.com/y3QPmLOr1gB",
   },
   {
@@ -326,6 +348,7 @@ const wishlistSeed = [
       "https://img.kwcdn.com/product/fancy/cd57cd43-493e-4bb1-99c2-fea87552f9e2.jpg"
     ],
     "tags": ["toy"],
+    "price": 9.66,
     "sourceUrl": "https://share.temu.com/SN3PJcHxC8B",
   },
   {
@@ -334,6 +357,7 @@ const wishlistSeed = [
       "https://img.kwcdn.com/product/fancy/021a5713-1d36-4ed3-96b8-0ff40cc952d3.jpg"
     ],
     "tags": ["heels"],
+    "price": 13.09,
     "sourceUrl": "https://share.temu.com/WimyPcHinQB",
   },
   {
@@ -343,6 +367,7 @@ const wishlistSeed = [
       "https://img.kwcdn.com/product/fancy/9711177f-2313-4c87-82dd-7b83b92846d8.jpg"
     ],
     "tags": ["underwear"],
+    "price": 11.55,
     "sourceUrl": "https://share.temu.com/LsP6NACJh1B",
   },
   {
@@ -351,6 +376,7 @@ const wishlistSeed = [
       "https://img.kwcdn.com/product/fancy/a9b8b0a5-c74b-425b-9f76-0c6201a4f23c.jpg?imageView2/2/w/800/q/70/format/avif"
     ],
     "tags": ["pants"],
+    "price": 7.51,
     "sourceUrl": "https://share.temu.com/anCUKNOE0nB",
   },
   {
@@ -359,6 +385,7 @@ const wishlistSeed = [
       "https://img.kwcdn.com/product/fancy/43e04e10-474f-4223-baa3-70fd05621192.jpg"
     ],
     "tags": ["bodysuit"],
+    "price": 4.04,
     "sourceUrl": "https://share.temu.com/B6SrUY7Xa9B",
   },
   {
@@ -367,7 +394,17 @@ const wishlistSeed = [
       "https://img.kwcdn.com/product/fancy/6d5999b5-91e3-408a-bce0-5721abdc9c45.jpg"
     ],
     "tags": ["underwear"],
+    "price": 3.48,
     "sourceUrl": "https://share.temu.com/FZOEQse1nhB",
+  },
+  {
+    "name": "Denim Shorts",
+    "images": [
+      "https://img.kwcdn.com/product/fancy/63e2eb8a-addd-4b2d-bd6f-27997dd0a1b0.jpg"
+    ],
+    "tags": ["pants"],
+    "price": 4.77,
+    "sourceUrl": "https://share.temu.com/TV3hb1ykJ9B",
   }
   /*{
     "name": "",
@@ -375,6 +412,7 @@ const wishlistSeed = [
       ""
     ],
     "tags": [],
+    "price": 0.00,
     "sourceUrl": "",
   }*/
 ];
