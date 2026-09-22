@@ -1,15 +1,7 @@
 import {initializeApp} from 'https://www.gstatic.com/firebasejs/12.19.0/firebase-app.js';
 import {getAuth,onAuthStateChanged,signInAnonymously} from 'https://www.gstatic.com/firebasejs/12.19.0/firebase-auth.js';
 import {collection,deleteDoc,doc,getFirestore,onSnapshot,serverTimestamp,setDoc} from 'https://www.gstatic.com/firebasejs/12.19.0/firebase-firestore.js';
-
-const firebaseConfig={
-  apiKey:'AIzaSyAOmMsu3z5n1Rs-bO30tAotXVdYjN1GL0g',
-  authDomain:'sissyclara.firebaseapp.com',
-  projectId:'sissyclara',
-  storageBucket:'sissyclara.firebasestorage.app',
-  messagingSenderId:'1016101768824',
-  appId:'1:1016101768824:web:4db7759439e3fdd318a78d'
-};
+import {firebaseConfig} from './firebase-config.js';
 
 const app=initializeApp(firebaseConfig);
 const auth=getAuth(app);
