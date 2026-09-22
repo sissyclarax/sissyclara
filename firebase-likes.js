@@ -67,3 +67,8 @@ document.addEventListener('click',async event=>{
 });
 
 updateButtons();
+
+let locks=[];let orgasms=[];
+function emitCalendar(){document.dispatchEvent(new CustomEvent('closet:calendar-data',{detail:{locks,orgasms}}))}
+onSnapshot(collection(db,'locks'),snapshot=>{locks=snapshot.docs.map(entry=>{const data=entry.data();return{id:entry.id,start:data.start?.toDate?.()||null,end:data.end?.toDate?.()||null}}).filter(lock=>lock.start);emitCalendar()},error=>document.dispatchEvent(new CustomEvent('closet:calendar-error',{detail:error.message})));
+onSnapshot(collection(db,'orgasms'),snapshot=>{orgasms=snapshot.docs.map(entry=>{const data=entry.data();return{id:entry.id,date:data.date?.toDate?.()||null,state:data.state==='locked'?'locked':'unlocked',sissygasm:data.sissygasm===true}}).filter(orgasm=>orgasm.date);emitCalendar()},error=>document.dispatchEvent(new CustomEvent('closet:calendar-error',{detail:error.message})));

@@ -1,50 +1,6 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#130f12">
-  <title>El armario de Clara</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <header class="site-header">
-    <a class="brand" href="#" aria-label="El armario de Clara">
-      <span class="brand-mark">C</span><span id="brandName">El armario de Clara</span>
-    </a>
-    <div class="language-switch" role="group" aria-label="Idioma / Language">
-      <button data-language="es">ES</button><button class="active" data-language="en">EN</button>
-    </div>
-  </header>
-
-  <main>
-    <section class="catalogue" aria-label="Your collection">
-      <nav class="section-tabs" id="sectionFilters" aria-label="Apartados de la colección"></nav>
-      <div class="collection-heading">
-        <div><p class="eyebrow" id="privateLabel">Colección privada</p><h1 id="sectionTitle">Juguetes</h1></div>
-        <div class="view-label" id="resultLabel"></div>
-      </div>
-      <div class="subcategory-row" id="subcategoryFilters" aria-label="Categorías del apartado"></div>
-      <div class="tag-row" id="tagFilters" aria-label="Filter by tag"></div>
-      <div class="item-grid" id="itemGrid"></div>
-      <div class="empty-state" id="emptyState" hidden>
-        <span>♡</span><h2 id="emptyTitle">No hay nada aquí</h2><p id="emptyCopy">Prueba con otro filtro.</p>
-      </div>
-    </section>
-  </main>
-
-  <footer><span id="footerBrand">El armario de Clara</span></footer>
-
-  <dialog id="detailDialog" class="detail-dialog">
-    <button class="icon-button close-button" data-close="detailDialog" aria-label="Close">×</button>
-    <div id="detailContent"></div>
-  </dialog>
-
-  <script src="wishlist-data.js"></script>
-  <script src="app.js"></script>
-  <script type="module" src="firebase-likes.js"></script>
-</body>
-</html>
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#130f12"><title>Sissy Clara</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;1,500&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css"></head><body class="home-page">
+<header class="site-header"><a class="brand" href="index.html"><span class="brand-mark">C</span><span>Sissy Clara</span></a><div class="language-switch"><button data-language="es">ES</button><button class="active" data-language="en">EN</button></div></header>
+<main class="home-menu"><p class="eyebrow" data-home="space">Sissy Clara</p><h1><span data-home="welcome">Welcome to Sissy Clara's</span><br><em data-home="privateSpace">private space.</em></h1>
+<div class="home-links"><a href="closet.html"><span>01</span><div><small data-home="collection">Collection</small><strong data-home="closet">Closet</strong><p data-home="closetCopy">Clothes, toys and wishlist</p></div><b>→</b></a><a href="calendar.html"><span>02</span><div><small data-home="timeline">Timeline</small><strong data-home="calendar">Calendar</strong><p data-home="calendarCopy">Locks, orgasms and statistics</p></div><b>→</b></a><a href="about.html"><span>03</span><div><small data-home="profile">Profile</small><strong data-home="about">About me</strong><p data-home="aboutCopy">A little more about Clara</p></div><b>→</b></a></div>
+<section class="social-section"><p data-home="findMe">Find me online</p><div class="social-links"><a href="https://x.com/sissyclarax" target="_blank" rel="noopener noreferrer">X <span>↗</span></a><a href="https://www.reddit.com/user/SissyClarax/" target="_blank" rel="noopener noreferrer">Reddit <span>↗</span></a><a href="https://www.redgifs.com/users/sissyclarax" target="_blank" rel="noopener noreferrer">RedGifs <span>↗</span></a><a href="https://chaster.app/user/SissyClarax" target="_blank" rel="noopener noreferrer">Chaster <span>↗</span></a></div></section></main>
+<footer class="site-footer"><div class="footer-identity"><a href="index.html">Sissy Clara</a><p>© <span data-footer-year></span> Sissy Clara · <span data-footer="rights">All rights reserved.</span></p></div><nav class="footer-nav"><a href="index.html" data-footer="home">Home</a><a href="closet.html" data-footer="closet">Closet</a><a href="calendar.html" data-footer="calendar">Calendar</a><a href="about.html" data-footer="about">About me</a></nav></footer><script src="home.js"></script><script src="footer.js"></script></body></html>

@@ -11,5 +11,13 @@ service cloud.firestore {
                     && resource.data.userId == request.auth.uid;
       allow update: if false;
     }
+    match /locks/{lockId} {
+      allow read: if true;
+      allow write: if false;
+    }
+    match /orgasms/{orgasmId} {
+      allow read: if true;
+      allow write: if false;
+    }
   }
 }

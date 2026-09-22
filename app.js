@@ -68,10 +68,10 @@ const wishlistItems = wishlistSeed.map((item,index)=>({
 const allItems=[...items,...wishlistItems];
 const sections = ['Toys','Clothes','Wishlist'];
 let activeSection = 'Toys'; let activeCategory = 'Todas'; let activeTag = '';
-let language = 'en';
+let language = localStorage.getItem('sissy-clara-language') || 'en';
 const translations = {
-  es:{brand:'El armario de Clara',private:'Colección privada',all:'Todas',ordered:'Pedido',noDescription:'Sin descripción.',item:'objeto',items:'objetos',empty:'No hay nada aquí',emptyCopy:'Prueba con otro filtro.',close:'Cerrar',viewImage:'Ver imagen',viewOnTemu:'Ver en Temu',Wishlist:'Lista de deseos',Toys:'Juguetes',Clothes:'Ropa',Accessories:'Accesorios',Underwear:'Ropa interior',Skirts:'Faldas',Dress:'Vestidos',Bodys:'Bodies','T-Shirts':'Camisetas',Tops:'Tops','High Heels':'Tacones','Sin categoría':'Sin categoría'},
-  en:{brand:"Clara's Closet",private:'Private collection',all:'All',ordered:'Ordered',noDescription:'No description.',item:'item',items:'items',empty:'Nothing here',emptyCopy:'Try another filter.',close:'Close',viewImage:'View image',viewOnTemu:'View on Temu',Wishlist:'Wishlist',Toys:'Toys',Clothes:'Clothes',Accessories:'Accessories',Underwear:'Underwear',Skirts:'Skirts',Dress:'Dresses',Bodys:'Bodysuits','T-Shirts':'T-shirts',Tops:'Tops','High Heels':'High heels','Sin categoría':'Uncategorised'}
+  es:{brand:'Sissy Clara',private:'Colección de Clara',all:'Todas',ordered:'Pedido',noDescription:'Sin descripción.',item:'objeto',items:'objetos',empty:'No hay nada aquí',emptyCopy:'Prueba con otro filtro.',close:'Cerrar',viewImage:'Ver imagen',viewOnTemu:'Ver en Temu',Wishlist:'Lista de deseos',Toys:'Juguetes',Clothes:'Ropa',Accessories:'Accesorios',Underwear:'Ropa interior',Skirts:'Faldas',Dress:'Vestidos',Bodys:'Bodies','T-Shirts':'Camisetas',Tops:'Tops','High Heels':'Tacones','Sin categoría':'Sin categoría'},
+  en:{brand:'Sissy Clara',private:"Clara's collection",all:'All',ordered:'Ordered',noDescription:'No description.',item:'item',items:'items',empty:'Nothing here',emptyCopy:'Try another filter.',close:'Close',viewImage:'View image',viewOnTemu:'View on Temu',Wishlist:'Wishlist',Toys:'Toys',Clothes:'Clothes',Accessories:'Accessories',Underwear:'Underwear',Skirts:'Skirts',Dress:'Dresses',Bodys:'Bodysuits','T-Shirts':'T-shirts',Tops:'Tops','High Heels':'High heels','Sin categoría':'Uncategorised'}
 };
 const t = key => translations[language][key] || key;
 const contentEn = {
@@ -96,7 +96,8 @@ const sectionItems=()=>allItems.filter(i=>i.section===activeSection);
 function filtered(){return sectionItems().filter(i=>(activeSection!=='Clothes'||activeCategory==='Todas'||i.subcategory===activeCategory)&&(!activeTag||i.tags.includes(activeTag)))}
 function render(){
   document.documentElement.lang=language;
-  document.title=language==='es'?'El armario de Clara':"Clara's Closet";
+  document.title='Sissy Clara — Closet';
+  const nav=document.querySelectorAll('.page-nav a');if(nav.length){nav[0].textContent=language==='es'?'Inicio':'Home';nav[1].textContent=language==='es'?'Armario':'Closet';nav[2].textContent=language==='es'?'Calendario':'Calendar';if(nav[3])nav[3].textContent=language==='es'?'Sobre mí':'About me'}
   $('#brandName').textContent=t('brand');$('#footerBrand').textContent=t('brand');$('#privateLabel').textContent=t('private');$('#emptyTitle').textContent=t('empty');$('#emptyCopy').textContent=t('emptyCopy');$('.close-button').ariaLabel=t('close');
   document.querySelectorAll('[data-language]').forEach(button=>button.classList.toggle('active',button.dataset.language===language));
   sectionFilters.innerHTML=sections.map(section=>`<button class="section-tab ${section===activeSection?'active':''}" data-section="${escapeHTML(section)}">${escapeHTML(t(section))}</button>`).join('');
@@ -116,6 +117,6 @@ function showDetail(id){const i=allItems.find(x=>x.id===id);if(!i)return;const l
 sectionFilters.onclick=e=>{if(e.target.dataset.section){activeSection=e.target.dataset.section;activeCategory='Todas';activeTag='';render()}};subcategoryFilters.onclick=e=>{if(e.target.dataset.subcategory){activeCategory=e.target.dataset.subcategory;activeTag='';render()}};tagFilters.onclick=e=>{if(e.target.dataset.tag){activeTag=activeTag===e.target.dataset.tag?'':e.target.dataset.tag;render()}};
 grid.addEventListener('click',e=>{if(e.target.closest('[data-like-key]'))return;const card=e.target.closest('.item-card');if(card)showDetail(card.dataset.id)});grid.addEventListener('keydown',e=>{if((e.key==='Enter'||e.key===' ')&&e.target.matches('.item-card'))showDetail(e.target.dataset.id)});
 document.addEventListener('click',e=>{if(e.target.dataset.close)$('#'+e.target.dataset.close).close();const thumb=e.target.closest('[data-gallery-image]');if(thumb){const main=$('#detailDialog .detail-image');main.src=thumb.dataset.galleryImage;thumb.parentElement.querySelectorAll('.thumbnail').forEach(button=>button.classList.toggle('active',button===thumb))}});
-document.querySelector('.language-switch').onclick=e=>{if(e.target.dataset.language){language=e.target.dataset.language;$('#detailDialog').close();render()}};
+document.querySelector('.language-switch').onclick=e=>{if(e.target.dataset.language){language=e.target.dataset.language;localStorage.setItem('sissy-clara-language',language);$('#detailDialog').close();render()}};
 document.querySelectorAll('dialog').forEach(d=>d.addEventListener('click',e=>{if(e.target===d)d.close()}));
 render();
